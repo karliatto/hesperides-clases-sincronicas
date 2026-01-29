@@ -2,6 +2,10 @@
 
 ## Clase sincrónica 1 (Experimentando con LN)
 
+1. Empezar a descargarse Polar (https://lightningpolar.com/)
+2. Como es mejor para comunicarse entre el grupo
+3. Explicar método socrático para proxima clase
+
 ### Revisar diagramas apertura canales de LN
 
 ### Ver la red en el mundo real (amboss.space)
@@ -43,7 +47,7 @@
 
 Cada canal Lightning tiene dos políticas de comisiones independientes — una por dirección — porque cada nodo establece sus propias comisiones de enrutamiento. La combinación de comisión base + tasa proporcional (ppm) determina el costo total de enrutar un pago: comisión_total = base + (monto × tasa / 1,000,000). El timelock delta y los valores máximo/mínimo de HTLC son restricciones de seguridad y capacidad que determinan qué pagos pueden usar ese canal para enrutamiento.
 
-### Experimentar con polar
+### Experimentar con polar (https://lightningpolar.com/)
 
 1. Crear una red
 2. Comprar contenedores docker
